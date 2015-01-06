@@ -1,0 +1,22 @@
+{
+  "name": "game",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "releasedOn": {
+      "type": "date",
+      "required": true,
+      "index": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
