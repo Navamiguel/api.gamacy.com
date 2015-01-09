@@ -1,0 +1,26 @@
+{
+  "name": "Hardware",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "commonName": {
+      "type": "string",
+      "comments": "e.g. NES"
+    },
+    "fullName": {
+      "type": "string",
+      "comments": "e.g. Nintendo Entertainment System"
+    },
+    "platform": {
+      "type": "object",
+      "id": true,
+      "index": true,
+      "comments": "e.g. Famicom"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

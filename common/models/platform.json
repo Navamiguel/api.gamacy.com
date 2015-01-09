@@ -1,0 +1,26 @@
+{
+  "name": "Platform",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "information": {
+      "type": "string",
+      "comments": "description of Platform / OS"
+    },
+    "hardware": {
+      "type": [
+        "object"
+      ]
+    },
+    "software": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

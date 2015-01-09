@@ -1,0 +1,22 @@
+{
+  "name": "Software",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "information": {
+      "type": "string",
+      "comments": "description"
+    },
+    "platform": {
+      "type": "string",
+      "id": true,
+      "index": true,
+      "comments": "e.g. Famicom"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

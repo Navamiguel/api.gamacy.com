@@ -26,7 +26,15 @@
     "dataSource": "db",
     "public": false
   },
-  "game": {
+  "Platform": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Hardware": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Software": {
     "dataSource": "db",
     "public": true
   }
